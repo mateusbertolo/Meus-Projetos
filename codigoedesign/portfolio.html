@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecendo e trabalhando com elementos do tipo container (blocos)</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="principal">
+        <!-- início topo -->
+        <div id="topo">
+            <div id="logotipo">
+                <img src="imagens/code.png" alt="Logotipo da empresa Código & Design">
+            </div>
+            <div id="slogan">
+                <p>Código & Design - Web Design levado a sério!</p>
+            </div>
+        </div>
+        <!-- final topo -->
+
+        <!-- início menu -->
+        <div id="menu">
+            <ul id="navegacao">
+                <li><a href="index.html" class="linkmenu">Home</a></li>
+                <li><a href="sobre.html" class="linkmenu">Sobre Nós</a></li>
+                <li><a href="servicos.html" class="linkmenu">Serviços</a></li>
+                <li><a href="portfolio.html" class="linkmenu">Portfólio</a></li>
+                <li><a href="contato.html" class="linkmenu">Contato</a></li>
+            </ul>
+            <ul id="sociais">
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/instagram.png" alt="Instagram"></a></li>
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/twitter.png" alt="Twitter"></a></li>
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/youtube.png" alt="YouTube"></a></li>
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/github.png" alt="Github"></a></li>
+            </ul>
+        </div>
+        <!-- final menu -->
+
+        <!-- início conteúdo -->
+        <div id="conteudo">
+            <h1 class="titulos">Conheça um pouco mais dos nossos projetos:</h1>
+
+            <div id="miniatura">
+                <a href="imagens/galeria/01.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_01.jpg" alt="Mini01">
+                </a>
+                <a href="imagens/galeria/02.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_02.jpg" alt="Mini02">
+                </a>
+                <a href="imagens/galeria/03.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_03.jpg" alt="Mini03">
+                </a>
+                <a href="imagens/galeria/04.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_04.jpg" alt="Mini04">
+                </a>
+                <a href="imagens/galeria/05.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_05.jpg" alt="Mini05">
+                </a>
+                <a href="imagens/galeria/06.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_06.jpg" alt="Mini06">
+                </a>
+                <a href="imagens/galeria/07.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_07.jpg" alt="Mini07">
+                </a>
+                <a href="imagens/galeria/08.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_08.jpg" alt="Mini08">
+                </a>
+                <a href="imagens/galeria/09.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_09.jpg" alt="Mini09">
+                </a>
+                <a href="imagens/galeria/10.jpg" target="galeria">
+                    <img src="imagens/galeria/mini_10.jpg" alt="Mini10">
+                </a>
+            </div>
+
+            <div id="exibeimagem">
+                <iframe src="imagens/galeria/01.jpg" name="galeria" id="galeria"></iframe>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+        <!-- final conteúdo -->
+
+        <!-- início  rodapé -->
+        <div id="rodape">
+            <div id="copy">
+                &copy; Copyright 2022 - Código & Design - Todos os direitos reservados.
+            </div>
+            <div id="dev" class="direita">
+                Site desenvolvido por: <span class="dev"><a href="mailto:email@servidor.com" id="linkdev">Código & Design</a></span>
+            </div>
+        </div>
+        <!-- final rodapé -->
+    </div>
+</body>
+</html>

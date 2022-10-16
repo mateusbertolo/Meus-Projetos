@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}  
+
+#principal{
+    width: 1200px;
+    height: 600px;
+    background: rgba(200, 100, 100, 1);
+    margin: 0 auto;
+}
+
+#topo{
+    width: 1200px;
+    height: 100px;
+    background: rgba(150, 200, 200, 1);
+}
+
+#logotipo{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background: blue;
+}
+
+#menu{
+    width: 1200px;
+    height: 50px;
+    background: rgba(150, 150, 150, 1);
+}   
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu ul li a{
+    display: block;
+    width: 148px;
+    height: 48px;
+    background: rgba(200, 50, 50, 1);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: white thin solid;
+    line-height: 50px;
+}
+
+#conteudo{
+    width: 1200px;
+    height: 400px;
+}
+
+#rodape{
+    width: 1200px;
+    height: 50px;
+    background: yellow;
+}

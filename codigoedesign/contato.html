@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecendo e trabalhando com elementos do tipo container (blocos)</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="principal">
+        <!-- início topo -->
+        <div id="topo">
+            <div id="logotipo">
+                <img src="imagens/code.png" alt="Logotipo da empresa Código & Design">
+            </div>
+            <div id="slogan">
+                <p>Código & Design - Web Design levado a sério!</p>
+            </div>
+        </div>
+        <!-- final topo -->
+
+        <!-- início menu -->
+        <div id="menu">
+            <ul id="navegacao">
+                <li><a href="index.html" class="linkmenu">Home</a></li>
+                <li><a href="sobre.html" class="linkmenu">Sobre Nós</a></li>
+                <li><a href="servicos.html" class="linkmenu">Serviços</a></li>
+                <li><a href="portfolio.html" class="linkmenu">Portfólio</a></li>
+                <li><a href="contato.html" class="linkmenu">Contato</a></li>
+            </ul>
+            <ul id="sociais">
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/instagram.png" alt="Instagram"></a></li>
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/twitter.png" alt="Twitter"></a></li>
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/youtube.png" alt="YouTube"></a></li>
+                <li><a href="#" class="linksocial"><img src="imagens/sociais/github.png" alt="Github"></a></li>
+            </ul>
+        </div>
+        <!-- final menu -->
+
+        <!-- início conteúdo -->
+        <div id="conteudo">
+            <h1 class="titulos">Dúvidas, críticas, elogios ou sugestões:</h1>
+
+            <div id="formulario">
+                <form action="" method="get" autocomplete="off">
+                    <label for="nome" class="legenda">Nome: </label>
+                    <input type="text" class="campo" name="nome" placeholder="Digite o seu nome" required>
+                    <br>
+                    <label for="e-mail" class="legenda">E-mail: </label>
+                    <input type="email" class="campo" name="e-mail" placeholder="Digite o seu e-mail" required>
+                    <br>
+                    <label for="assunto" class="legenda">Assunto: </label>
+                    <select name="assunto" class="camposelect" required>
+                        <option value="">Selecione</option>
+                        <option value="duvidas">Dúvidas</option>
+                        <option value="criticas">Críticas</option>
+                        <option value="elogios">Elogios</option>
+                        <option value="sugestoes">Sugestões</option>
+                    </select>
+                    <br>
+                    <label for="mensagem" class="legenda">Mensagem: </label>
+                    <textarea name="mensagem" class="mensagem" placeholder="Digite a sua mensagem" required></textarea>
+                    <br>
+                    <input type="submit" class="enviar" name="enviar" value="Enviar">
+                </form>
+            </div>
+
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.9923817392187!2d-47.64777588445126!3d-22.728524537249772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631a09ac7b2e1%3A0x197834b105f878e3!2sSenac%20Piracicaba!5e0!3m2!1spt-BR!2sbr!4v1661384184868!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            <div class="clearfix"></div>
+        </div>
+        <!-- final conteúdo -->
+
+        <!-- início  rodapé -->
+        <div id="rodape">
+            <div id="copy">
+                &copy; Copyright 2022 - Código & Design - Todos os direitos reservados.
+            </div>
+            <div id="dev" class="direita">
+                Site desenvolvido por: <span class="dev"><a href="mailto:email@servidor.com" id="linkdev">Código & Design</a></span>
+            </div>
+        </div>
+        <!-- final rodapé -->
+    </div>
+</body>
+</html>

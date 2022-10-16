@@ -1,0 +1,798 @@
+/* comentário em css */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+    /* 
+    background-color: rgba(146,83,29,1);
+    background-image: url(imagens/bbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    */
+    background: rgb(105, 105, 105) url(imagens/bbg.jpg) no-repeat center fixed;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.textodireita{
+    text-align: right;
+}
+
+.bgverde{
+    background: #00dfa8;
+}
+
+.bgvermelho{
+    background: #ff6277;
+}
+
+.bgroxo{
+    background: #ab7bc5;
+}
+
+.bglaranja{
+    background: #ff7757;
+}
+
+.bgamarelo{
+    background: #ffcf17;
+}
+
+.amarelo{
+    color: #ffcf17;
+}
+
+.vermelho{
+    color:#ff6277;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+
+@media (min-width: 576px) {
+    #principal{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    #topo{
+        width: 100%;
+        height: 100px;
+    }
+    
+    #logotipo{
+        display: block;
+        width: 200px;
+        height: 100px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+        float: left;
+        line-height: 100px;
+    }
+    
+    #logotipo a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #menu{
+        display: none;
+        width: 792px;
+        height: 100px;
+        vertical-align: middle;
+    }
+
+    #menumobile{
+        display: block;
+        width: 350px;
+        height: 50px;
+        float: right;
+        margin-top: 25px;
+    }
+    
+    #navegacao{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right;
+    }
+    
+    #navegacao li{
+        float: left;
+        margin-left: 20px;
+    }
+    
+    a.linkmenu:link, a.linkmenu:visited, a.linkdestaque:link, a.linkdestaque:visited{
+        color: #fff;
+        text-decoration: none;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    
+    a.linkmenu:hover, a.linkmenu:active{
+        color: rgb(0, 255, 255);
+    }
+    
+    a.linkdestaque:hover, a.linkdestaque:active{
+        text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+    }
+    
+    #destaque{
+        position: fixed;
+        right: -50px;
+        width: 80px;
+        height: 250px;
+        transition: 300ms all;
+    }
+
+    #destaque:hover{
+        right: 0;
+    }
+    
+    .destaque{
+        display: block;
+        width: 70px;
+        height: 80px;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .destaque img{
+        max-width: 30px;
+    } 
+    /* 
+    .destaque{
+        width: 20%;
+        height: 300px;
+        float: left;
+        text-align: center;
+    }
+    
+    .destaque img{
+        margin-top: 100px;
+    } 
+    */
+    
+    #conteudo{
+        width: 100%;
+        min-height: 500px;
+        background: #fff;
+    }
+    
+    #imagemcont, #textocont{
+        width: 46%;
+        min-height: 300px;
+        padding: 2%;
+        float: left;
+    }
+    
+    #textocont h1{
+        font-size: 30px;
+    }
+    
+    a.botao:link, a.botao:visited{
+        padding: 15px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+    
+    a.botao:hover, a.botao:active{
+        text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+    }
+    
+    #maisescolhas{
+        display: table-cell;
+        width: 1200px;
+        height: 150px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(68, 201, 235) url(imagens/background-01.jpg) no-repeat center;
+        background-size: cover;
+        background-blend-mode: overlay;
+        color: #fff;
+    }
+    
+    #sobrenos{
+        width: 100%;
+        min-height: 350px;
+        background: rgba(30,30,30,0.75) url(imagens/background-02.jpg) no-repeat center;
+        background-size: cover;
+        background-blend-mode: overlay;
+    }
+    
+    .saibamais{
+        width: 48%;
+        height: 300px;
+        float: left;
+        padding: 1%;
+    }
+    
+    .saibamais h3{
+        color: #fff;
+    }
+    
+    .saibamais hr{
+        height: 1px;
+        border-width: 0;
+        background: #000;
+    }
+    
+    #rodape{
+        width: 96%;
+        height: 100px;
+        padding: 0 2%;
+        line-height: 50px;
+        color: rgb(128, 128, 128);
+        background: #fff;
+    }
+    
+    #copy, #credito{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    #principal{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    #topo{
+        width: 100%;
+        height: 100px;
+    }
+    
+    #logotipo{
+        display: block;
+        width: 200px;
+        height: 100px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+        float: left;
+        line-height: 100px;
+    }
+    
+    #logotipo a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #menu{
+        display: none;
+        width: 792px;
+        height: 100px;
+        vertical-align: middle;
+    }
+
+    #menumobile{
+        display: block;
+        width: 500px;
+        height: 50px;
+        float: right;
+        margin-top: 25px;
+    }
+    
+    #navegacao{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right;
+    }
+    
+    #navegacao li{
+        float: left;
+        margin-left: 20px;
+    }
+    
+    a.linkmenu:link, a.linkmenu:visited, a.linkdestaque:link, a.linkdestaque:visited{
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    a.linkmenu:hover, a.linkmenu:active{
+        color: rgb(0, 255, 255);
+    }
+    
+    a.linkdestaque:hover, a.linkdestaque:active{
+        text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+    }
+    
+    #destaque{
+        position: static;
+        width: 100%;
+        height: 240px;
+    }
+    
+    .destaque{
+        display: table-cell;
+        width: 220px;
+        height: 220px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 10px;
+    }
+
+    .destaque img{
+        max-width: 100%;
+    } 
+    
+    /* 
+    .destaque{
+        width: 20%;
+        height: 300px;
+        float: left;
+        text-align: center;
+    }
+    
+    .destaque img{
+        margin-top: 100px;
+    } 
+    */
+    
+    #conteudo{
+        width: 100%;
+        min-height: 500px;
+        background: #fff;
+    }
+    
+    #imagemcont, #textocont{
+        width: 46%;
+        min-height: 300px;
+        padding: 2%;
+        float: left;
+    }
+    
+    #textocont h1{
+        font-size: 30px;
+    }
+    
+    a.botao:link, a.botao:visited{
+        padding: 15px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+    
+    a.botao:hover, a.botao:active{
+        text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+    }
+    
+    #maisescolhas{
+        display: table-cell;
+        width: 1200px;
+        height: 150px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(68, 201, 235) url(imagens/background-01.jpg) no-repeat center;
+        background-size: cover;
+        background-blend-mode: overlay;
+        color: #fff;
+    }
+    
+    #sobrenos{
+        width: 100%;
+        min-height: 350px;
+        background: rgba(30,30,30,0.75) url(imagens/background-02.jpg) no-repeat center;
+        background-size: cover;
+        background-blend-mode: overlay;
+    }
+    
+    .saibamais{
+        width: 48%;
+        height: 300px;
+        float: left;
+        padding: 1%;
+    }
+    
+    .saibamais h3{
+        color: #fff;
+    }
+    
+    .saibamais hr{
+        height: 1px;
+        border-width: 0;
+        background: #000;
+    }
+    
+    #rodape{
+        width: 96%;
+        height: 100px;
+        padding: 0 2%;
+        line-height: 50px;
+        color: rgb(128, 128, 128);
+        background: #fff;
+    }
+    
+    #copy, #credito{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    #principal{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    #topo{
+        width: 100%;
+        height: 100px;
+    }
+    
+    #logotipo{
+        display: table-cell;
+        width: 200px;
+        height: 100px;
+        vertical-align: middle;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    #logotipo a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #menu{
+        display: table-cell;
+        width: 792px;
+        height: 100px;
+        vertical-align: middle;
+    }
+
+    #menumobile{
+        display: none;
+    }
+    
+    #navegacao{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right;
+    }
+    
+    #navegacao li{
+        float: left;
+        margin-left: 20px;
+    }
+    
+    a.linkmenu:link, a.linkmenu:visited, a.linkdestaque:link, a.linkdestaque:visited{
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    a.linkmenu:hover, a.linkmenu:active{
+        color: rgb(0, 255, 255);
+    }
+    
+    a.linkdestaque:hover, a.linkdestaque:active{
+        text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+    }
+    
+    #destaque{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .destaque{
+        display: table-cell;
+        width: 240px;
+        height: 300px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    /* 
+    .destaque{
+        width: 20%;
+        height: 300px;
+        float: left;
+        text-align: center;
+    }
+    
+    .destaque img{
+        margin-top: 100px;
+    } 
+    */
+    
+    #conteudo{
+        width: 100%;
+        min-height: 500px;
+        background: #fff;
+    }
+    
+    #imagemcont, #textocont{
+        width: 46%;
+        min-height: 300px;
+        padding: 2%;
+        float: left;
+    }
+    
+    #textocont h1{
+        font-size: 30px;
+    }
+    
+    a.botao:link, a.botao:visited{
+        padding: 15px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+    
+    a.botao:hover, a.botao:active{
+        text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+    }
+    
+    #maisescolhas{
+        display: table-cell;
+        width: 1200px;
+        height: 150px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(68, 201, 235) url(imagens/background-01.jpg) no-repeat center;
+        background-size: cover;
+        background-blend-mode: overlay;
+        color: #fff;
+    }
+    
+    #sobrenos{
+        width: 100%;
+        height: 350px;
+        background: rgba(30,30,30,0.75) url(imagens/background-02.jpg) no-repeat center;
+        background-size: cover;
+        background-blend-mode: overlay;
+    }
+    
+    .saibamais{
+        width: 23%;
+        height: 300px;
+        float: left;
+        padding: 1%;
+    }
+    
+    .saibamais h3{
+        color: #fff;
+    }
+    
+    .saibamais hr{
+        height: 1px;
+        border-width: 0;
+        background: #000;
+    }
+    
+    #rodape{
+        width: 96%;
+        height: 70px;
+        padding: 0 2%;
+        line-height: 70px;
+        color: rgb(128, 128, 128);
+        background: #fff;
+    }
+    
+    #copy{
+        width: 60%;
+        float: left;
+    }
+
+    #credito{
+        width: 40%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    #principal{
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    #topo{
+        width: 100%;
+        height: 100px;
+    }
+    
+    #logotipo{
+        display: table-cell;
+        width: 300px;
+        height: 100px;
+        vertical-align: middle;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    #logotipo a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #menu{
+        display: table-cell;
+        width: 900px;
+        height: 100px;
+        vertical-align: middle;
+    }
+
+    #menumobile{
+        display: none;
+    }
+    
+    #navegacao{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right;
+    }
+    
+    #navegacao li{
+        float: left;
+        margin-left: 20px;
+    }
+    
+    a.linkmenu:link, a.linkmenu:visited, a.linkdestaque:link, a.linkdestaque:visited{
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    a.linkmenu:hover, a.linkmenu:active{
+        color: rgb(0, 255, 255);
+    }
+    
+    a.linkdestaque:hover, a.linkdestaque:active{
+        text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+    }
+    
+    #destaque{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .destaque{
+        display: table-cell;
+        width: 240px;
+        height: 300px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    /* 
+    .destaque{
+        width: 20%;
+        height: 300px;
+        float: left;
+        text-align: center;
+    }
+    
+    .destaque img{
+        margin-top: 100px;
+    } 
+    */
+    
+    #conteudo{
+        width: 100%;
+        min-height: 500px;
+        background: #fff;
+    }
+    
+    #imagemcont, #textocont{
+        width: 500px;
+        height: 400px;
+        padding: 50px;
+        float: left;
+    }
+    
+    #textocont h1{
+        font-size: 30px;
+    }
+    
+    a.botao:link, a.botao:visited{
+        padding: 15px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+    
+    a.botao:hover, a.botao:active{
+        text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+    }
+    
+    #maisescolhas{
+        display: table-cell;
+        width: 1200px;
+        height: 150px;
+        text-align: center;
+        vertical-align: middle;
+        background: rgb(68, 201, 235) url(imagens/background-01.jpg) no-repeat center;
+        background-size: cover;
+        background-blend-mode: overlay;
+        color: #fff;
+    }
+    
+    #sobrenos{
+        width: 100%;
+        height: 350px;
+        background: rgba(30,30,30,0.75) url(imagens/background-02.jpg) no-repeat center;
+        background-size: cover;
+        background-blend-mode: overlay;
+    }
+    
+    .saibamais{
+        width: 23%;
+        height: 300px;
+        float: left;
+        padding: 1%;
+    }
+    
+    .saibamais h3{
+        color: #fff;
+    }
+    
+    .saibamais hr{
+        height: 1px;
+        border-width: 0;
+        background: #000;
+    }
+    
+    #rodape{
+        width: 96%;
+        height: 70px;
+        padding: 0 2%;
+        line-height: 70px;
+        color: rgb(128, 128, 128);
+        background: #fff;
+    }
+    
+    #copy, #credito{
+        width: 50%;
+        float: left;
+    }
+}
+
+/* @media (min-width: 1400px) { ... } */
