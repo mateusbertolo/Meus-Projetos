@@ -1,0 +1,1646 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block;  
+}
+
+.textolaranja{
+    color: rgba(249,132,29,1);
+}
+
+.direita{
+    float: right !important;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.subtitulo{
+    margin-top: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* tamanho da viewport: 1200px */
+@media (min-width: 1200px) {
+    #principal{
+        width: 1170px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #topo{
+        width: 100%;
+        height: 69px;
+        border-top: rgba(0,0,0,1) thin solid;
+    }
+
+    #logotipo{
+        width: 150px;
+        height: 40px;
+        margin-top: 20px;
+        float: left;
+        font-weight: bold;
+    }
+
+    .logo{
+        color: rgba(0,0,0,1);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .logo:hover{
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+    }
+
+    .alpha{
+        font-size: 26px;
+    }
+
+    #menu{
+        width: 1020px;
+        height: 69px;
+        float: right;  
+    }
+
+    #menumobile{
+        display: none;
+    }
+
+    #navegacao{
+        display: table;
+        width: auto;
+        height: 50px;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navegacao li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linkmenu:link, a.linkmenu:visited{
+        display: block;
+        min-width: 30px;
+        height: 20px;
+        padding: 30px 10px 10px;
+        text-decoration: none;
+        text-align: center;
+        color: rgba(106,106,106,1);
+        text-transform: uppercase;
+        font-family: 'Roboto Condensed', sans-serif;
+        transition: 300ms all;
+    }
+
+    a.linkmenu:hover, a.linkmenu:active{
+        background: rgba(249,132,29,1);
+        color: rgba(255,255,255,1);
+    }
+
+    #destaque{
+        display: table-cell;
+        width: 1170px;
+        height: 300px;
+        background: rgba(249,132,29,1) url(imagens/bgheaderedit.jpg) center bottom;
+        text-align: center;
+        color: rgba(255,255,255,1);
+        vertical-align: middle;
+        border-bottom: rgba(249,132,29,1) thick solid;
+    }
+
+    #sobrenos{
+        width: 100%;
+        min-height: 250px;
+        /* padding: 25px 0; */
+    }
+
+    .sobre{
+        width: 49%;
+        min-height: 200px;
+        padding: 25px 0;
+        float: left;
+        text-align: justify;
+    }
+
+    a.botao:link, a.botao:visited{
+        text-decoration: none;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        padding: 10px;
+        transition: 300ms all;
+    }
+
+    a.botao:hover, a.botao:active{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #servicos, #video{
+        width: 100%;
+        min-height: 350px;
+        background: rgba(240,240,240,1);
+        padding: 35px 0;
+    }
+
+    #nossosservicos, #nossovideo, #nossoscontatos{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #menuservicos{
+        width: 100%;
+        min-height: 250px;
+    }
+
+    #navegaservicos{
+        width: 100%;
+        min-height: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .servico{
+        list-style: none;
+        width: 23%;
+        text-align: center;
+        min-height: 250px;
+        float: left;
+        margin: 0 1%;
+    }
+
+    a.linkservico:link, a.linkservico:visited{
+        display: block;
+        width: 92%;
+        min-height: 220px;
+        background: rgba(255,255,255,1);
+        text-decoration: none;
+        color: rgba(0,0,0,1);
+        padding: 15px 4%;
+        transition: 300ms all;
+    }
+
+    a.linkservico:hover, a.linkservico:active{
+        box-shadow: rgba(0,0,0,0.75) 0 0 10px;
+    }
+
+    .linkservico img{
+        border: rgba(249,132,29,1) thin solid;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    #calltoaction{
+        width: 100%;
+        min-height: 300px;
+        margin: 35px 0;
+    }
+
+    #imagemdestaque{
+        width: 550px;
+        min-height: 300px;
+        margin-right: 35px;
+        float: left;
+    }
+
+    #diferencial{
+        width: 585px;
+        min-height: 300px;
+        float: left;
+    }
+
+    #videoyt{
+        width: 100%;
+        height: 640px;
+        border: none;
+    }
+
+    #contato{
+        width: 100%;
+        height: 455px;
+        margin: 35px 0;
+    }
+
+    #mapa, #formulario{
+        width: 50%;
+        height: 350px;
+        float: left;
+    }
+
+    #mapagoogle{
+        width: 100%;
+        height: 350px;
+        border: none;
+    }
+
+    #formcontato{
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .campo{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .campo2{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .areatexto{
+        width: 100%;
+        height: 120px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+        resize: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .botaoenviar{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        border: none;
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        cursor: pointer;
+        transition: 300ms all;
+    }
+
+    .botaoenviar:hover{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #rodape{
+        width: 100%;
+        height: 300px;
+        background: rgba(0,0,0,1);
+        color: rgba(255,255,255,1);
+    }
+
+    .subrodape{
+        width: 23%;
+        height: 220px;
+        padding: 15px 1%;
+        float: left;
+    }
+
+    #copy, #social{
+        width: 48%;
+        height: 50px;
+        padding: 0 1%;
+        float: left;
+        line-height: 50px;
+    }
+
+    #social ul{
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+
+    #social ul li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linksocial:link, a.linksocial:visited{
+        display: block;
+        width: 30px;
+        height: 30px;
+        box-shadow: rgba(255,255,255,0.5) 0 0 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+        transition: 300ms all;
+    }
+
+    a.linksocial:hover, a.linksocial:active{
+        box-shadow: rgba(255,255,255,1) 0 0 10px;
+    }
+
+    .linksocial img{
+        max-width: 20px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #principal{
+        width: 98%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #topo{
+        width: 100%;
+        height: 69px;
+        border-top: rgba(0,0,0,1) thin solid;
+    }
+
+    #logotipo{
+        width: 120px;
+        height: 40px;
+        margin-top: 20px;
+        float: left;
+        font-weight: bold;
+    }
+
+    .logo{
+        color: rgba(0,0,0,1);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .logo:hover{
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+    }
+
+    .alpha{
+        font-size: 26px;
+    }
+
+    #menu{
+        width: 800px;
+        height: 69px;
+        float: right;  
+    }
+
+    #menumobile{
+        display: none;
+    }
+
+    #navegacao{
+        display: table;
+        width: auto;
+        height: 50px;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navegacao li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linkmenu:link, a.linkmenu:visited{
+        display: block;
+        min-width: 30px;
+        height: 20px;
+        padding: 30px 10px 10px;
+        text-decoration: none;
+        text-align: center;
+        color: rgba(106,106,106,1);
+        text-transform: uppercase;
+        font-family: 'Roboto Condensed', sans-serif;
+        transition: 300ms all;
+    }
+
+    a.linkmenu:hover, a.linkmenu:active{
+        background: rgba(249,132,29,1);
+        color: rgba(255,255,255,1);
+    }
+
+    #destaque{
+        display: block;
+        width: 100%;
+        height: 200px;
+        background: rgba(249,132,29,1) url(imagens/bgheaderedit.jpg) center bottom;
+        text-align: center;
+        color: rgba(255,255,255,1);
+        border-bottom: rgba(249,132,29,1) thick solid;
+        padding-top: 100px;
+    }
+
+    #sobrenos{
+        width: 100%;
+        min-height: 250px;
+        /* padding: 25px 0; */
+    }
+
+    .sobre{
+        width: 49%;
+        min-height: 200px;
+        padding: 25px 0;
+        float: left;
+        text-align: justify;
+    }
+
+    a.botao:link, a.botao:visited{
+        text-decoration: none;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        padding: 10px;
+        transition: 300ms all;
+    }
+
+    a.botao:hover, a.botao:active{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #servicos, #video{
+        width: 100%;
+        min-height: 350px;
+        background: rgba(240,240,240,1);
+        padding: 35px 0;
+    }
+
+    #nossosservicos, #nossovideo, #nossoscontatos{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #menuservicos{
+        width: 100%;
+        min-height: 250px;
+    }
+
+    #navegaservicos{
+        width: 100%;
+        min-height: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .servico{
+        list-style: none;
+        width: 23%;
+        text-align: center;
+        min-height: 250px;
+        float: left;
+        margin: 0 1%;
+    }
+
+    a.linkservico:link, a.linkservico:visited{
+        display: block;
+        width: 92%;
+        min-height: 220px;
+        background: rgba(255,255,255,1);
+        text-decoration: none;
+        color: rgba(0,0,0,1);
+        padding: 15px 4%;
+        transition: 300ms all;
+    }
+
+    a.linkservico:hover, a.linkservico:active{
+        box-shadow: rgba(0,0,0,0.75) 0 0 10px;
+    }
+
+    .linkservico img{
+        border: rgba(249,132,29,1) thin solid;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    #calltoaction{
+        width: 100%;
+        min-height: 300px;
+        margin: 35px 0;
+    }
+
+    #imagemdestaque{
+        width: 45%;
+        min-height: 300px;
+        margin-right: 5%;
+        float: left;
+    }
+
+    #diferencial{
+        width: 50%;
+        min-height: 300px;
+        float: left;
+    }
+
+    #videoyt{
+        width: 100%;
+        height: 640px;
+        border: none;
+    }
+
+    #contato{
+        width: 100%;
+        height: 455px;
+        margin: 35px 0;
+    }
+
+    #mapa, #formulario{
+        width: 50%;
+        height: 350px;
+        float: left;
+    }
+
+    #mapagoogle{
+        width: 100%;
+        height: 350px;
+        border: none;
+    }
+
+    #formcontato{
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .campo{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .campo2{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .areatexto{
+        width: 100%;
+        height: 120px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+        resize: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .botaoenviar{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        border: none;
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        cursor: pointer;
+        transition: 300ms all;
+    }
+
+    .botaoenviar:hover{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #rodape{
+        width: 100%;
+        height: 300px;
+        background: rgba(0,0,0,1);
+        color: rgba(255,255,255,1);
+    }
+
+    .subrodape{
+        width: 23%;
+        height: 220px;
+        padding: 15px 1%;
+        float: left;
+    }
+
+    #copy, #social{
+        width: 48%;
+        height: 50px;
+        padding: 0 1%;
+        float: left;
+        line-height: 50px;
+    }
+
+    #social ul{
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+
+    #social ul li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linksocial:link, a.linksocial:visited{
+        display: block;
+        width: 30px;
+        height: 30px;
+        box-shadow: rgba(255,255,255,0.5) 0 0 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+        transition: 300ms all;
+    }
+
+    a.linksocial:hover, a.linksocial:active{
+        box-shadow: rgba(255,255,255,1) 0 0 10px;
+    }
+
+    .linksocial img{
+        max-width: 20px;
+        padding: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #principal{
+        width: 98%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #topo{
+        width: 100%;
+        height: 69px;
+        border-top: rgba(0,0,0,1) thin solid;
+    }
+
+    #logotipo{
+        width: 120px;
+        height: 40px;
+        margin-top: 20px;
+        float: left;
+        font-weight: bold;
+    }
+
+    .logo{
+        color: rgba(0,0,0,1);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .logo:hover{
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+    }
+
+    .alpha{
+        font-size: 26px;
+    }
+
+    #menu{
+        width: 600px;
+        height: 69px;
+        float: right;  
+    }
+
+    #menumobile{
+        display: none;
+    }
+
+    #navegacao{
+        display: table;
+        width: auto;
+        height: 50px;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navegacao li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linkmenu:link, a.linkmenu:visited{
+        display: block;
+        min-width: 30px;
+        height: 20px;
+        padding: 30px 10px 10px;
+        text-decoration: none;
+        text-align: center;
+        color: rgba(106,106,106,1);
+        text-transform: uppercase;
+        font-family: 'Roboto Condensed', sans-serif;
+        transition: 300ms all;
+    }
+
+    a.linkmenu:hover, a.linkmenu:active{
+        background: rgba(249,132,29,1);
+        color: rgba(255,255,255,1);
+    }
+
+    #destaque{
+        display: block;
+        width: 100%;
+        height: 200px;
+        background: rgba(249,132,29,1) url(imagens/bgheaderedit.jpg) center bottom;
+        text-align: center;
+        color: rgba(255,255,255,1);
+        border-bottom: rgba(249,132,29,1) thick solid;
+        padding-top: 100px;
+    }
+
+    #sobrenos{
+        width: 100%;
+        min-height: 250px;
+        /* padding: 25px 0; */
+    }
+
+    .sobre{
+        width: 49%;
+        min-height: 200px;
+        padding: 25px 0;
+        float: left;
+        text-align: justify;
+    }
+
+    a.botao:link, a.botao:visited{
+        text-decoration: none;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        padding: 10px;
+        transition: 300ms all;
+    }
+
+    a.botao:hover, a.botao:active{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #servicos, #video{
+        width: 100%;
+        min-height: 350px;
+        background: rgba(240,240,240,1);
+        padding: 35px 0;
+    }
+
+    #nossosservicos, #nossovideo, #nossoscontatos{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #menuservicos{
+        width: 100%;
+        min-height: 250px;
+    }
+
+    #navegaservicos{
+        width: 100%;
+        min-height: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .servico{
+        list-style: none;
+        width: 23%;
+        text-align: center;
+        min-height: 250px;
+        float: left;
+        margin: 0 1%;
+    }
+
+    a.linkservico:link, a.linkservico:visited{
+        display: block;
+        width: 92%;
+        min-height: 220px;
+        background: rgba(255,255,255,1);
+        text-decoration: none;
+        color: rgba(0,0,0,1);
+        padding: 15px 4%;
+        transition: 300ms all;
+    }
+
+    a.linkservico:hover, a.linkservico:active{
+        box-shadow: rgba(0,0,0,0.75) 0 0 10px;
+    }
+
+    .linkservico img{
+        border: rgba(249,132,29,1) thin solid;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    #calltoaction{
+        width: 100%;
+        min-height: 300px;
+        margin: 35px 0;
+    }
+
+    #imagemdestaque{
+        width: 45%;
+        min-height: 300px;
+        margin-right: 5%;
+        float: left;
+    }
+
+    #diferencial{
+        width: 50%;
+        min-height: 300px;
+        float: left;
+    }
+
+    #videoyt{
+        width: 100%;
+        height: 400px;
+        border: none;
+    }
+
+    #contato{
+        width: 100%;
+        height: 455px;
+        margin: 35px 0;
+    }
+
+    #mapa, #formulario{
+        width: 50%;
+        height: 350px;
+        float: left;
+    }
+
+    #mapagoogle{
+        width: 100%;
+        height: 350px;
+        border: none;
+    }
+
+    #formcontato{
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .campo{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .campo2{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .areatexto{
+        width: 100%;
+        height: 120px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+        resize: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .botaoenviar{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        border: none;
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        cursor: pointer;
+        transition: 300ms all;
+    }
+
+    .botaoenviar:hover{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #rodape{
+        width: 100%;
+        height: 300px;
+        background: rgba(0,0,0,1);
+        color: rgba(255,255,255,1);
+    }
+
+    .subrodape{
+        width: 23%;
+        height: 220px;
+        padding: 15px 1%;
+        float: left;
+    }
+
+    #copy, #social{
+        width: 48%;
+        height: 50px;
+        padding: 0 1%;
+        float: left;
+        line-height: 50px;
+    }
+
+    #social ul{
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+
+    #social ul li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linksocial:link, a.linksocial:visited{
+        display: block;
+        width: 30px;
+        height: 30px;
+        box-shadow: rgba(255,255,255,0.5) 0 0 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+        transition: 300ms all;
+    }
+
+    a.linksocial:hover, a.linksocial:active{
+        box-shadow: rgba(255,255,255,1) 0 0 10px;
+    }
+
+    .linksocial img{
+        max-width: 20px;
+        padding: 5px;
+    }
+}
+@media (max-width: 767px) {
+    #principal{
+        width: 98%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #topo{
+        width: 100%;
+        height: 69px;
+        border-top: rgba(0,0,0,1) thin solid;
+    }
+
+    #logotipo{
+        width: 120px;
+        height: 40px;
+        margin-top: 20px;
+        float: left;
+        font-weight: bold;
+    }
+
+    .logo{
+        color: rgba(0,0,0,1);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .logo:hover{
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+    }
+
+    .alpha{
+        font-size: 26px;
+    }
+
+    #menu{
+        display: none;
+        width: 600px;
+        height: 69px;
+        float: right;  
+    }
+
+    #menumobile{
+        display: block;
+        float: right;
+        margin-top: 19px;
+        width: 70%;
+    }
+
+    #navegacao{
+        display: table;
+        width: auto;
+        height: 50px;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navegacao li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linkmenu:link, a.linkmenu:visited{
+        display: block;
+        min-width: 30px;
+        height: 20px;
+        padding: 30px 10px 10px;
+        text-decoration: none;
+        text-align: center;
+        color: rgba(106,106,106,1);
+        text-transform: uppercase;
+        font-family: 'Roboto Condensed', sans-serif;
+        transition: 300ms all;
+    }
+
+    a.linkmenu:hover, a.linkmenu:active{
+        background: rgba(249,132,29,1);
+        color: rgba(255,255,255,1);
+    }
+
+    #destaque{
+        display: block;
+        width: 100%;
+        height: 200px;
+        background: rgba(249,132,29,1) url(imagens/bgheaderedit.jpg) center bottom;
+        text-align: center;
+        color: rgba(255,255,255,1);
+        border-bottom: rgba(249,132,29,1) thick solid;
+        padding-top: 100px;
+    }
+
+    #sobrenos{
+        width: 100%;
+        min-height: 250px;
+        /* padding: 25px 0; */
+    }
+
+    .sobre{
+        width: 49%;
+        min-height: 200px;
+        padding: 25px 0;
+        float: left;
+        text-align: justify;
+    }
+
+    a.botao:link, a.botao:visited{
+        text-decoration: none;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        padding: 10px;
+        transition: 300ms all;
+    }
+
+    a.botao:hover, a.botao:active{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #servicos, #video{
+        width: 100%;
+        min-height: 350px;
+        background: rgba(240,240,240,1);
+        padding: 35px 0;
+    }
+
+    #nossosservicos, #nossovideo, #nossoscontatos{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #menuservicos{
+        width: 100%;
+        min-height: 250px;
+    }
+
+    #navegaservicos{
+        width: 100%;
+        min-height: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .servico{
+        list-style: none;
+        width: 48%;
+        text-align: center;
+        min-height: 250px;
+        float: left;
+        margin: 0 1% 15px;
+    }
+
+    a.linkservico:link, a.linkservico:visited{
+        display: block;
+        width: 92%;
+        min-height: 220px;
+        background: rgba(255,255,255,1);
+        text-decoration: none;
+        color: rgba(0,0,0,1);
+        padding: 15px 4%;
+        transition: 300ms all;
+    }
+
+    a.linkservico:hover, a.linkservico:active{
+        box-shadow: rgba(0,0,0,0.75) 0 0 10px;
+    }
+
+    .linkservico img{
+        border: rgba(249,132,29,1) thin solid;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    #calltoaction{
+        width: 100%;
+        min-height: 300px;
+        margin: 35px 0;
+    }
+
+    #imagemdestaque{
+        width: 45%;
+        min-height: 300px;
+        margin-right: 5%;
+        float: left;
+    }
+
+    #diferencial{
+        width: 50%;
+        min-height: 300px;
+        float: left;
+    }
+
+    #videoyt{
+        width: 100%;
+        height: 400px;
+        border: none;
+    }
+
+    #contato{
+        width: 100%;
+        height: auto;
+        margin: 35px 0;
+    }
+
+    #mapa, #formulario{
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+
+    #mapagoogle{
+        width: 100%;
+        height: 350px;
+        border: none;
+    }
+
+    #formcontato{
+        width: 300px;
+        height: 350px;
+        margin: 35px auto 0;
+    }
+
+    .campo{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .campo2{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .areatexto{
+        width: 100%;
+        height: 120px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+        resize: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .botaoenviar{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        border: none;
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        cursor: pointer;
+        transition: 300ms all;
+    }
+
+    .botaoenviar:hover{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #rodape{
+        width: 100%;
+        min-height: 300px;
+        background: rgba(0,0,0,1);
+        color: rgba(255,255,255,1);
+    }
+
+    .subrodape{
+        width: 48%;
+        height: 220px;
+        padding: 15px 1%;
+        float: left;
+    }
+
+    #copy, #social{
+        width: 98%;
+        height: 50px;
+        padding: 0 1%;
+        float: none;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    #social ul{
+        width: 200px;
+        height: 40px;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+    }
+
+    #social ul li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linksocial:link, a.linksocial:visited{
+        display: block;
+        width: 30px;
+        height: 30px;
+        box-shadow: rgba(255,255,255,0.5) 0 0 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+        transition: 300ms all;
+    }
+
+    a.linksocial:hover, a.linksocial:active{
+        box-shadow: rgba(255,255,255,1) 0 0 10px;
+    }
+
+    .linksocial img{
+        max-width: 20px;
+        padding: 5px;
+    }
+}
+@media (max-width: 480px) {
+    #principal{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    #topo{
+        width: 100%;
+        height: 69px;
+        border-top: rgba(0,0,0,1) thin solid;
+    }
+
+    #logotipo{
+        width: 120px;
+        height: 40px;
+        margin-top: 20px;
+        float: left;
+        font-weight: bold;
+    }
+
+    .logo{
+        color: rgba(0,0,0,1);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .logo:hover{
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+    }
+
+    .alpha{
+        font-size: 26px;
+    }
+
+    #menu{
+        display: none;
+        width: 600px;
+        height: 69px;
+        float: right;  
+    }
+
+    #menumobile{
+        display: block;
+        float: right;
+        margin-top: 19px;
+        width: 70%;
+    }
+
+    #navegacao{
+        display: table;
+        width: auto;
+        height: 50px;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navegacao li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linkmenu:link, a.linkmenu:visited{
+        display: block;
+        min-width: 30px;
+        height: 20px;
+        padding: 30px 10px 10px;
+        text-decoration: none;
+        text-align: center;
+        color: rgba(106,106,106,1);
+        text-transform: uppercase;
+        font-family: 'Roboto Condensed', sans-serif;
+        transition: 300ms all;
+    }
+
+    a.linkmenu:hover, a.linkmenu:active{
+        background: rgba(249,132,29,1);
+        color: rgba(255,255,255,1);
+    }
+
+    #destaque{
+        display: block;
+        width: 100%;
+        height: 200px;
+        background: rgba(249,132,29,1) url(imagens/bgheaderedit.jpg) center bottom;
+        text-align: center;
+        color: rgba(255,255,255,1);
+        border-bottom: rgba(249,132,29,1) thick solid;
+        padding-top: 100px;
+    }
+
+    #sobrenos{
+        width: 100%;
+        min-height: 500px;
+        /* padding: 25px 0; */
+    }
+
+    .sobre{
+        width: 100%;
+        min-height: 200px;
+        padding: 25px 0;
+        float: left;
+        text-align: justify;
+    }
+
+    a.botao:link, a.botao:visited{
+        text-decoration: none;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        padding: 10px;
+        transition: 300ms all;
+    }
+
+    a.botao:hover, a.botao:active{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #servicos, #video{
+        width: 100%;
+        min-height: 350px;
+        background: rgba(240,240,240,1);
+        padding: 35px 0;
+    }
+
+    #nossosservicos, #nossovideo, #nossoscontatos{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #menuservicos{
+        width: 100%;
+        min-height: 250px;
+    }
+
+    #navegaservicos{
+        width: 100%;
+        min-height: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .servico{
+        list-style: none;
+        width: 98%;
+        text-align: center;
+        min-height: 250px;
+        float: left;
+        margin: 0 1% 15px;
+    }
+
+    a.linkservico:link, a.linkservico:visited{
+        display: block;
+        width: 92%;
+        min-height: 220px;
+        background: rgba(255,255,255,1);
+        text-decoration: none;
+        color: rgba(0,0,0,1);
+        padding: 15px 4%;
+        transition: 300ms all;
+    }
+
+    a.linkservico:hover, a.linkservico:active{
+        box-shadow: rgba(0,0,0,0.75) 0 0 10px;
+    }
+
+    .linkservico img{
+        border: rgba(249,132,29,1) thin solid;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    #calltoaction{
+        width: 100%;
+        min-height: 300px;
+        margin: 35px 0;
+    }
+
+    #imagemdestaque{
+        width: 100%;
+        min-height: 300px;
+        margin-right: 5%;
+        float: none;
+    }
+
+    #diferencial{
+        width: 100%;
+        min-height: 200px;
+        float: none;
+    }
+
+    #videoyt{
+        width: 100%;
+        height: 300px;
+        border: none;
+    }
+
+    #contato{
+        width: 100%;
+        height: auto;
+        margin: 35px 0;
+    }
+
+    #mapa, #formulario{
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+
+    #mapagoogle{
+        width: 100%;
+        height: 350px;
+        border: none;
+    }
+
+    #formcontato{
+        width: 300px;
+        height: 350px;
+        margin: 35px auto 0;
+    }
+
+    .campo{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .campo2{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .areatexto{
+        width: 100%;
+        height: 120px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.15);
+        border: rgba(0,0,0,0.5) 1px solid;
+        margin-bottom: 10px;
+        resize: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .botaoenviar{
+        width: 306px;
+        height: 40px;
+        font-size: 18px;
+        color: rgba(255,255,255,1);
+        background: rgba(249,132,29,1);
+        border: none;
+        text-shadow: rgba(0,0,0,0.75) 1px 1px 1px;
+        cursor: pointer;
+        transition: 300ms all;
+    }
+
+    .botaoenviar:hover{
+        box-shadow: rgba(0,0,0,0.75) 3px 3px 3px;
+    }
+
+    #rodape{
+        width: 100%;
+        min-height: 300px;
+        background: rgba(0,0,0,1);
+        color: rgba(255,255,255,1);
+    }
+
+    .subrodape{
+        width: 98%;
+        height: 220px;
+        padding: 15px 1%;
+        float: left;
+    }
+
+    #copy, #social{
+        width: 98%;
+        height: 50px;
+        padding: 0 1%;
+        float: none;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    #social ul{
+        width: 200px;
+        height: 40px;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+    }
+
+    #social ul li{
+        list-style: none;
+        float: left;
+    }
+
+    a.linksocial:link, a.linksocial:visited{
+        display: block;
+        width: 30px;
+        height: 30px;
+        box-shadow: rgba(255,255,255,0.5) 0 0 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+        transition: 300ms all;
+    }
+
+    a.linksocial:hover, a.linksocial:active{
+        box-shadow: rgba(255,255,255,1) 0 0 10px;
+    }
+
+    .linksocial img{
+        max-width: 20px;
+        padding: 5px;
+    }
+}
+
