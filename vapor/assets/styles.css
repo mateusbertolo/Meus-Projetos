@@ -1,0 +1,229 @@
+/* HEADER REGION */
+#header-container{
+    width: 100%;
+    height: 100px;
+    background: #181a21;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#header-container #header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#header-container #header #logo{
+    
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#header-container #header #logo img{
+
+    width: 80px;
+    height: 80px;
+}
+#header-container #header #logo a{
+    margin: none;
+}
+
+#menu {
+    width: 100%;
+    height: 100px;
+    display:  flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#menu .item{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+#menu .item:hover{
+    text-decoration: underline;
+}
+#menu .item a{
+    text-decoration: none;
+    color: aliceblue
+}
+#menu .item a:hover{
+    color:  #fff;
+}
+/* END HEADER REGION */
+
+/* BODY REGION */
+#body-conteiner {
+    background-color: #1B2839;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    padding: 0 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+#side-menu{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 0 5px 5px 5px;
+}
+#side-menu .menu-header{
+    color: #b8b6b4;
+    margin: 20px 0 10px 0;
+}
+#side-menu .item a{
+    color: #66c0f4;
+    cursor: pointer;
+    margin: 2px 0 2px 0;
+    text-decoration: none;
+}
+
+#side-menu .item a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#body-conteiner #content{
+    width: calc(100vw - 250px);
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+#content #header{
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+/* #content #areavenda{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: azure;
+    border-radius: 5px;
+}
+#areavenda .botaocompra{
+    display: flex;
+    justify-content: ;
+    border-radius: 10px;
+    width: 48%;
+    height: 25px;
+
+}
+#areavenda h2{
+    width: 50%;
+} */
+#content #flex-box-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content #imagemdemonstrativa{
+    width: 60%;
+    padding: 0 10px 0 0;
+
+}
+#content #imagemdemonstrativa .imagemdemo{
+    width: 100%;
+    height: 70%;
+}
+#content #caracteristicajogo{
+    width: 30%;
+    padding: 0 0 0 2px;
+    align-items: flex-end;
+    color: #fff;
+    margin: 0;
+}
+#content #header h1{
+    margin: 0;
+}
+#caracteristicajogo .descrição h2{
+    margin: 0;
+    font-size: 25px;
+}
+/*
+#caracteristicajogo .descrição p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+#caracteristicajogo .desenvolvedora h2{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #66c0f4;
+}
+#caracteristicajogo .desenvolvedora p{
+    font-size: 14px;
+    margin: 2px;
+}
+#caracteristicajogo .plataformas h2{
+    margin: 0;
+    font-size: 16px;
+    color: #66c0f4;
+}
+#caracteristicajogo .plataformas p{
+    font-size: 14px;
+    margin: 2px;
+}
+#caracteristicajogo .idiomas h2{
+    margin: 0;
+    font-size: 16px;
+    color: #66c0f4;
+}
+#caracteristicajogo .idiomas p{
+    font-size: 14px;
+    margin: 2px;
+}
+#caracteristicajogo .datalançamento h2{
+    margin: 0;
+    font-size: 16px;
+    color: #66c0f4;
+}
+#caracteristicajogo .datalançamento p{
+    font-size: 14px;
+    margin: 2px;
+}
+#caracteristicajogo .valor h2{
+    margin: 0;
+    font-size: 16px;
+    color: #66c0f4;
+}
+#caracteristicajogo .valor p{
+    font-size: 14px;
+    margin: 2px;
+}
+ */
+
+
+/* medelos de class */
+#caracteristicajogo .info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#caracteristicajogo .h2{
+    margin: 0;
+    font-size: 16px;
+    color: #66c0f4;
+}
+#caracteristicajogo .conteudo{
+    font-size: 14px;
+    margin: 2px;
+}
+/* fim modelos e class */
+
+/* END BODY REGION */
+
+
